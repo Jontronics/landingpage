@@ -147,6 +147,31 @@ section:nth-of-type(odd) {
     color: #585b60;
     text-decoration: none;
 }
+
+.btn-btn-top {
+    border: 1px solid #585b60;
+    box-shadow:none;  
+    border-radius: 5px;
+    /* display: inline-block; */
+    min-width: 200px;
+    padding: .2em;
+    height: 1px;
+    text-align: center;
+    color: #585b60;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    transition: .5s;
+    margin-bottom: 5px;
+    background-color: #F9F9F9;
+    
+}
+
+
+
 .center-content {
     text-align: center;
 }
@@ -528,16 +553,16 @@ p.bannerDescription{
 
 /* pricing Section CSS */
 .pricing_heading_text{
-	padding:60px 0px;
+	/* padding:60px 0px; */
 }
 .main_pricing_table{
-	padding-bottom:100px;
+	/* padding-bottom:100px; */
 	overflow:hidden;
 }
 .single_pricing{
 	border:1px solid #ddd;
 	transition:.5s;
-	margin-bottom:30px;
+	/* margin-bottom:30px; */
 }
 .economy_table{
 	border:1px solid #FF3366;
@@ -560,11 +585,11 @@ p.bannerDescription{
 	padding: 1px 16px 10px 15px;
 }
 .single_pricing ul li{
-	padding:15px 20px;
+	padding:0px 10px;
 }
-.single_pricing ul li img{
+/* .single_pricing ul li img{
 	padding-right:7px;
-}
+} */
 
 .table_info{
     padding: 25px 0px 30px 15px;
